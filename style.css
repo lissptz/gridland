@@ -133,7 +133,7 @@ border-radius: 30px;
 .inst_row_three {
     grid-column: 4/5;
     grid-row: 4/5;
-    background: rgb(250, 214, 12);
+    background:#3f719b
 }
 
 .item:nth-child(11) {
