@@ -5,176 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
-        body {
-            margin: 0px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 900px repeat(3, 500px) 200px 150px repeat(3, 150px);
-
-        }
-
-        .header {
-            grid-column: 1/5;
-            background-image: url(/gridland/images/headerback.png);
-
-            margin: 0;
-            height: 100%;
-            background-size: cover;
-        }
-
-
-
-        .adout_left_column {
-            grid-column: 1/3;
-            grid-row: 2/3;
-
-            background-image: url(/gridland/images/back2.png);
-           
-        }
-.about_right_column>h3{
-
-    text-transform: uppercase;
-  
-    font-family: 'Fira Sans', sans-serif;
-        font-size: 24px;
-        color: #666666;
-        padding-top: 110px;
-        padding-left: 50px;}
- .about_right_column>p{
-     position: absolute;
-     margin: 0px;
-    font-size: 36px;
-    font-family: 'Fira Sans', sans-serif;
-    padding-left: 50px;
-   
-  
- }
-
-
-        .item:nth-child(3) {
-            grid-column: 3/6;
-            grid-row: 2/3;
-            background: ffff;
-
-
-
-        }
-
-        .item:nth-child(4) {
-            grid-column: 1/2;
-            grid-row: 3/4;
-            background: url(/gridland/images/back3.png);
-        }
-
-
-
-
-        .item:nth-child(5) {
-            grid-column: 2/3;
-            grid-row: 3/4;
-            background: url(/gridland/images/back5.gif);
-            background: rgb(3, 31, 83);
-
-        }
-
-        .item:nth-child(6) {
-            grid-column: 3/4;
-            grid-row: 3/4;
-            background: rgb(46, 64, 99);
-        }
-
-        .item:nth-child(7) {
-            grid-column: 4/5;
-            grid-row: 3/4;
-            background: rgb(161, 11, 69);
-        }
-
-        .item:nth-child(8) {
-            grid-column: 1/3;
-            grid-row: 4/5;
-            background: rgb(34, 248, 14);
-        }
-
-        .item:nth-child(9) {
-            grid-column: 3/4;
-            grid-row: 4/5;
-            background: rgb(6, 85, 85);
-        }
-
-        .item:nth-child(10) {
-            grid-column: 4/5;
-            grid-row: 4/5;
-            background: rgb(250, 214, 12);
-        }
-
-        .item:nth-child(11) {
-            grid-row: 5/7;
-            background: rgb(240, 8, 20);
-        }
-
-        .item:nth-child(12) {
-            grid-row: 5/7;
-            grid-column: 2/5;
-             background: indigo;
-        }
-
-        .item:nth-child(13) {
-            grid-column: 2/3;
-            grid-row: 5/6;
-            background: rgb(20, 20, 20);
-        }
-
-        .item:nth-child(14) {
-            grid-column: 1/3;
-            background: lightgreen;
-
-        }
-
-        .item:nth-child(15) {
-            grid-column: 3/5;
-            background: rgba(175, 18, 84, 0.281);
-        }
-
-        .item:nth-child(16) {
-            grid-column: 1/5;
-            grid-row: 8/10;
-            background: rgb(5, 173, 5);
-        }
-
-        h1 {
-            font-family: 'Fira Sans', sans-serif;
-            font-size: 72px;
-            margin-left: 200px;
-            margin-top: 365px;
-        }
-        .logo{
-           position:absolute;
-           left:210px;
-           top: 87px;
-           
-
-        }
-        .header>p {
-            position: absolute;
-            font-family: 'Fira Sans', sans-serif;
-            font-size: 30px;
-            margin-left: 200px;
-            margin-top: -28px;
-        }
-        .menu_button{
-            width: 40px;
-            height: 50px;
-            position: absolute;
-            background: url(/gridland/images/menu_button.png);
-            right:230px;
-            top: 100px;
-        }
-    </style>
+ 
 
 </head>
 
@@ -182,28 +15,35 @@
     <div class="header">
         <h1>Amazing Dude. <br>
             Amazing Life.</h1>
-            <p> Welcome to the personal site of John Doe. <br>
-A professional skier and a musician.<p>
-           <div class="logo"><img src="/gridland/images/logo.png" alt=""></div>
-<a href="#" class="menu_button"></a>
+        <p> Welcome to the personal site of John Doe. <br>
+            A professional skier and a musician.
+        <p>
+        <div class="logo"><img src="/gridland/images/logo.png" alt=""></div>
+        <a href="#" class="menu_button"></a>
     </div>
     <div class="adout_left_column"></div>
 
     <div class="about_right_column">
         <h3>Sed faucibus quis </h3>
-        <p>Fusce bibendum luctus massa, 
-            ut tincidunt lectus tincidunt in. 
-            Nulla tristique ipsum vitae lacus 
-            ullamcorper, at dictum nunc 
+        <p>Fusce bibendum luctus massa,
+            ut tincidunt lectus tincidunt in.
+            Nulla tristique ipsum vitae lacus
+            ullamcorper, at dictum nunc
             scelerisque.</p>
     </div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
+    <div class="gallery_one"></div>
+    <div class="gallery_two"></div>
+    <div class="gallery_three"></div>
+    <div class="gallery_four"></div>
+    <div class="inst_row_one">
+        <h3>instagram</h3>
+        <p>Etiam lacus dolor, tincidunt vitae 
+            nisi in, vulputate placerat odio.
+            Pellentesque iaculis.</p>
+            <a href="#">view on instagram</a>
+    </div>
+    <div class="inst_row_two"></div>
+    <div class="inst_row_three"></div>
     <div class="item"></div>
     <div class="item"></div>
     <div class="item"></div>
