@@ -7,18 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
         body {
+            margin: 0px;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 900px repeat(3, 500px) 200px 150px repeat(3, 150px);
 
         }
 
-        .item:nth-child(1) {
+        .header {
             grid-column: 1/5;
-         background-image: url(/gridland/images/headerback.png);
+            background-image: url(/gridland/images/headerback.png);
 
             margin: 0;
             height: 100%;
@@ -27,12 +29,32 @@
 
 
 
-        .item:nth-child(2) {
+        .adout_left_column {
             grid-column: 1/3;
             grid-row: 2/3;
 
-            background-image: url(/gridland/images/back2.png)
+            background-image: url(/gridland/images/back2.png);
+           
         }
+.about_right_column>h3{
+
+    text-transform: uppercase;
+  
+    font-family: 'Fira Sans', sans-serif;
+        font-size: 24px;
+        color: #666666;
+        padding-top: 110px;
+        padding-left: 50px;}
+ .about_right_column>p{
+     position: absolute;
+     margin: 0px;
+    font-size: 36px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 50px;
+   
+  
+ }
+
 
         .item:nth-child(3) {
             grid-column: 3/6;
@@ -137,7 +159,7 @@
            
 
         }
-        .item>h3 {
+        .header>p {
             position: absolute;
             font-family: 'Fira Sans', sans-serif;
             font-size: 30px;
@@ -157,18 +179,24 @@
 </head>
 
 <body>
-    <div class="item">
+    <div class="header">
         <h1>Amazing Dude. <br>
             Amazing Life.</h1>
-            <h3>
-                Welcome to the personal site of John Doe. <br>
-A professional skier and a musician.</h3>
+            <p> Welcome to the personal site of John Doe. <br>
+A professional skier and a musician.<p>
            <div class="logo"><img src="/gridland/images/logo.png" alt=""></div>
 <a href="#" class="menu_button"></a>
     </div>
-    <div class="item"></div>
+    <div class="adout_left_column"></div>
 
-    <div class="item"></div>
+    <div class="about_right_column">
+        <h3>Sed faucibus quis </h3>
+        <p>Fusce bibendum luctus massa, 
+            ut tincidunt lectus tincidunt in. 
+            Nulla tristique ipsum vitae lacus 
+            ullamcorper, at dictum nunc 
+            scelerisque.</p>
+    </div>
     <div class="item"></div>
     <div class="item"></div>
     <div class="item"></div>
