@@ -395,7 +395,7 @@ border-radius: 30px;
   .box-two-contact .contact-text {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 300px;
     line-height: 1.5;
     color: #919191;
   }
@@ -411,7 +411,7 @@ border-radius: 30px;
   .box-two-follow h2 {
     margin: 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     color: #f9f9f9;
     text-transform: uppercase;
   }
@@ -469,7 +469,7 @@ border-radius: 30px;
   .box-three-subscribe h2 {
     margin: 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     color: #f9f9f9;
     text-transform: uppercase;
   }
