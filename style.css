@@ -214,6 +214,7 @@ border-radius: 30px;
   .play ul {
    
     padding: 0;
+    padding-top: 30px;
     list-style: none;
   }
   
@@ -227,6 +228,7 @@ border-radius: 30px;
   .play .button {
     display: inline-block;
    margin-left: 60px;
+   margin-top: 45px;
     padding: 16px 20px;
     font-size: 18px;
     font-weight: 400;
@@ -237,10 +239,6 @@ border-radius: 30px;
     border: 2px solid #2ebd59;
     -webkit-border-radius: 30px;
             border-radius: 30px;
-  }
-  
-  .play .button:hover {
-    opacity: .8;
   }
   
   .play .button span {
