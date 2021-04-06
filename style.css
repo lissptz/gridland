@@ -47,6 +47,7 @@ h1 {
     height: 50px;
     position: absolute;
     background: url(/gridland/images/menu_button.png);
+    background-size: cover;
     right: 230px;
     top: 100px;
 }
@@ -55,6 +56,7 @@ h1 {
     grid-row: 2/3;
 
     background-image: url(/gridland/images/back2.png);
+    background-size: cover;
 
 }
 
@@ -84,6 +86,7 @@ h1 {
     grid-column: 1/2;
     grid-row: 3/4;
     background: url(/gridland/images/back3.png);
+    background-size: cover;
 }
 
 
@@ -92,7 +95,8 @@ h1 {
 .gallery_two {
     grid-column: 2/3;
     grid-row: 3/4;
-    background:url(/gridland/images/back4.png)
+    background:url(/gridland/images/back4.png);
+    background-size: cover;
    
 
 }
@@ -101,12 +105,14 @@ h1 {
     grid-column: 3/4;
     grid-row: 3/4;
     background: url(/gridland/images/back5.gif);
+    background-size: cover;
 }
 
 .gallery_four {
     grid-column: 4/5;
     grid-row: 3/4;
     background: url(/gridland/images/back6.png);
+    background-size: cover;
 }
 
 .inst_row_one {
@@ -160,6 +166,7 @@ border-radius: 30px;
     grid-column: 3/4;
     grid-row: 4/5;
     background: url(/gridland/images/back7.png);
+    background-size: cover;
 }
 
 .inst_row_three {
@@ -333,7 +340,7 @@ border-radius: 30px;
   
  
   .main-footer {
-    min-height: 20%;
+    min-height: 600px;
     grid-column: 1/5;
     background-color: #212227;
   }
